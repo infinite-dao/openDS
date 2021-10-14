@@ -1,0 +1,203 @@
+{
+    "authoritative": {
+        "physicalSpecimenId": "MNHN-IM-2013-8488",
+        "institution": [
+            "MNHN",
+            "https://ror.org/03wkt5x30"
+        ],
+        "materialType": "Alcohol, 95%"
+    },
+    "images": {
+        "availableImages": [
+            {
+                "source": "http://mediaphoto.mnhn.fr/media/1427463506459UAeHPJw9jXoET1sF",
+                "license": "CC BY 4.0"
+            }
+        ]
+    },
+    "higher_classification": "Gastropoda",
+    "person_name": "Laurence Livermore",
+    "person_identifier": "LL123",
+    "specimen_collector_search": {
+        "results": {
+            "bionomia": [
+                [
+                    {
+                        "id": 37830,
+                        "score": 44.83701,
+                        "orcid": null,
+                        "wikidata": "Q13360126",
+                        "fullname": "Elisabeth Christina von Linn\u00e9",
+                        "fullname_reverse": "von Linn\u00e9, Elisabeth Christina",
+                        "thumbnail": "https://abekpgaoen.cloudimg.io/crop/24x24/n/https://commons.wikimedia.org/wiki/Special:FilePath/Elisabeth%20Christina%20von%20Linn%C3%A9.jpg",
+                        "lifespan": "&#42; June 14, 1744 &ndash; April 15, 1782 &dagger;",
+                        "description": "Swedish botanist (1744-1782)",
+                        "identifiers": "<http://www.wikidata.org/entity/Q13360126>"
+                    },
+                    {
+                        "id": 21804,
+                        "score": 17.689827,
+                        "orcid": null,
+                        "wikidata": "Q1043",
+                        "fullname": "Carl Linnaeus",
+                        "fullname_reverse": "Linnaeus, Carl",
+                        "thumbnail": "https://abekpgaoen.cloudimg.io/crop/24x24/n/https://commons.wikimedia.org/wiki/Special:FilePath/Carl%20von%20Linn%C3%A9.jpg",
+                        "lifespan": "&#42; May 23, 1707 &ndash; January 10, 1778 &dagger;",
+                        "description": "Swedish botanist, physician, and zoologist (1707-1778)",
+                        "identifiers": "<http://www.wikidata.org/entity/Q1043>"
+                    },
+                    {
+                        "id": 37029,
+                        "score": 14.304884,
+                        "orcid": null,
+                        "wikidata": "Q5959480",
+                        "fullname": "Jonas Carl Linnerhielm",
+                        "fullname_reverse": "Linnerhielm, Jonas Carl",
+                        "thumbnail": "https://abekpgaoen.cloudimg.io/crop/24x24/n/https://commons.wikimedia.org/wiki/Special:FilePath/Linnerhielm%20sj%C3%A4lvportr%C3%A4tt.jpg",
+                        "lifespan": "&#42; August 30, 1758 &ndash; February 12, 1829 &dagger;",
+                        "description": "Swedish nobleman, State Herald of Sweden, artis...",
+                        "identifiers": "<http://www.wikidata.org/entity/Q5959480>"
+                    },
+                    {
+                        "id": 40691,
+                        "score": 14.304884,
+                        "orcid": null,
+                        "wikidata": "Q66712753",
+                        "fullname": "William M. Linney",
+                        "fullname_reverse": "Linney, William M.",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": "&#42; January  1, 1835 &ndash; September 22, 1887 &dagger;",
+                        "description": "author; geologist/archaeologist, active in Kent...",
+                        "identifiers": "<http://www.wikidata.org/entity/Q66712753>"
+                    },
+                    {
+                        "id": 48105,
+                        "score": 14.304884,
+                        "orcid": null,
+                        "wikidata": "Q21519222",
+                        "fullname": "William Marcus Linney",
+                        "fullname_reverse": "Linney, William Marcus",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": "&#42; 1835 &ndash; 1887 &dagger;",
+                        "description": "botanist (1835-1887)",
+                        "identifiers": "<http://www.wikidata.org/entity/Q21519222>"
+                    },
+                    {
+                        "id": 54220,
+                        "score": 14.304884,
+                        "orcid": null,
+                        "wikidata": "Q66711966",
+                        "fullname": "John Linnell",
+                        "fullname_reverse": "Linnell, John",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": "&#42; 1822 &ndash; 1906 &dagger;",
+                        "description": "British Botanist (1822-1906 )",
+                        "identifiers": "<http://www.wikidata.org/entity/Q66711966>"
+                    },
+                    {
+                        "id": 10270,
+                        "score": 12.984883,
+                        "orcid": null,
+                        "wikidata": "Q178823",
+                        "fullname": "Carl Linnaeus the Younger",
+                        "fullname_reverse": "the Younger, Carl Linnaeus",
+                        "thumbnail": "https://abekpgaoen.cloudimg.io/crop/24x24/n/https://commons.wikimedia.org/wiki/Special:FilePath/Forslund,%20Linnaeus%20filius.jpg",
+                        "lifespan": "&#42; January 20, 1741 &ndash; November  1, 1783 &dagger;",
+                        "description": "Swedish botanist (1741-1783)",
+                        "identifiers": "<http://www.wikidata.org/entity/Q178823>"
+                    }
+                ],
+                [
+                    {
+                        "id": 38507,
+                        "score": 46.387783,
+                        "orcid": null,
+                        "wikidata": "Q21165102",
+                        "fullname": "Percy Groom",
+                        "fullname_reverse": "Groom, Percy",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": "&#42; September 12, 1865 &ndash; September 16, 1931 &dagger;",
+                        "description": "12 September 1865 - 16 September 1931",
+                        "identifiers": "<http://www.wikidata.org/entity/Q21165102>"
+                    },
+                    {
+                        "id": 58,
+                        "score": 46.387783,
+                        "orcid": "0000-0002-0596-5376",
+                        "wikidata": null,
+                        "fullname": "Quentin Groom",
+                        "fullname_reverse": "Groom, Quentin",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": null,
+                        "description": "I'm interested in the use of computers to analyse and disseminate scientific ...",
+                        "identifiers": "<https://orcid.org/0000-0002-0596-5376>"
+                    },
+                    {
+                        "id": 56938,
+                        "score": 12.584061,
+                        "orcid": null,
+                        "wikidata": "Q5081395",
+                        "fullname": "Charles Ottley Groom Napier",
+                        "fullname_reverse": "Napier, Charles Ottley Groom",
+                        "thumbnail": "https://bionomia.net/images/photo24X24.png",
+                        "lifespan": "&#42; May 14, 1839 &ndash; 1894 &dagger;",
+                        "description": "British geologist and naturalist",
+                        "identifiers": "<http://www.wikidata.org/entity/Q5081395>"
+                    }
+                ]
+            ],
+            "wikidata": [
+                [
+                    {
+                        "id": "http://www.wikidata.org/entity/Q1043",
+                        "fullname": "Carl Linnaeus",
+                        "givennames": "Carl",
+                        "familyname": "Linn\u00e9",
+                        "alternateNames": "Carl Linn\u00e6us; Carl Nilsson Linn\u00e6us; Carl von Linnaeus; Carl von Linne; Carl von Linn\u00e9; Caroli Linn\u00e6i; Carolo Linnaeo; Carolo Linn\u00e6o; Carolus Linnaeus; Carolus Linn\u00e6us; Carolus a Linne; Carolus a Linn\u00e9; Karl von Linn\u00e9; L.; Linn.; Linnaeus; Linne; Linn\u00e6us; Linn\u00e9",
+                        "lifespan": "&#42; 23 May 1707 &ndash; 10 January 1778 &dagger;",
+                        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Carl_von_Linn\u00e9.jpg/200px-Carl_von_Linn\u00e9.jpg",
+                        "description": "male: Swedish botanist, physician, and zoologist (1707-1778)",
+                        "occupations": "autobiographer; biologist; botanist; bryologist; entomologist; geologist; mycologist; naturalist; ornithologist; physician; professor; pteridologist; zoologist",
+                        "numApiOrdinal": "0",
+                        "score": "21",
+                        "identifiers": "<https://isni.org/isni/0000000121274957> | <http://viaf.org/viaf/34594730> | <http://www.wikidata.org/entity/Q1043>"
+                    },
+                    {
+                        "id": "http://www.wikidata.org/entity/Q178823",
+                        "fullname": "Carl Linnaeus the Younger",
+                        "givennames": "Carl",
+                        "familyname": "Linn\u00e9",
+                        "alternateNames": "Carl Linnaeus fil.; Carolus Linnaeus the Younger; L. f.; L.f.; Linnaeus filius",
+                        "lifespan": "&#42; 20 January 1741 &ndash; 1 November 1783 &dagger;",
+                        "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Forslund,_Linnaeus_filius.jpg/200px-Forslund,_Linnaeus_filius.jpg",
+                        "description": "male: Swedish botanist (1741-1783)",
+                        "occupations": "botanist; mycologist; university teacher",
+                        "numApiOrdinal": "1",
+                        "score": "20",
+                        "identifiers": "<https://isni.org/isni/0000000120171614> | <http://viaf.org/viaf/7541355> | <http://www.wikidata.org/entity/Q178823>"
+                    }
+                ],
+                [
+                    {
+                        "id": "http://www.wikidata.org/entity/Q28913658",
+                        "fullname": "Quentin Groom",
+                        "givennames": "Quentin John",
+                        "familyname": "Groom",
+                        "alternateNames": "Q.J. Groom; Quentin J. Groom; Quentin John Groom",
+                        "lifespan": "&#42; ?? month unknown 1965 &ndash; n.a.",
+                        "thumbnail": null,
+                        "description": "male: British botanist",
+                        "occupations": "biodiversity informatician; botanist; researcher",
+                        "numApiOrdinal": "0",
+                        "score": "109",
+                        "identifiers": "<https://isni.org/isni/0000000135211244> | <http://viaf.org/viaf/1273155105764076320004> | <http://www.wikidata.org/entity/Q28913658>"
+                    }
+                ]
+            ]
+        },
+        "summary": [
+            "Result set 1 by Bionomia Search: Found 7 names for \u201cLinn\u00e9\u201d: Elisabeth Christina von Linn\u00e9; Carl Linnaeus; Jonas Carl Linnerhielm; William M. Linney; William Marcus Linney; John Linnell; Carl Linnaeus the Younger. Found 3 names for \u201cGroom\u201d: Percy Groom; Quentin Groom; Charles Ottley Groom Napier.",
+            "Result set 2 by WikiData Search: Found 2 names for \u201cLinn\u00e9\u201d: Carl Linnaeus; Carl Linnaeus the Younger. Found one name for \u201cGroom\u201d: Quentin Groom."
+        ]
+    }
+}
