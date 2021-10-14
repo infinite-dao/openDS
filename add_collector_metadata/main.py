@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+# dependency: grequests
+# dependency: gevent
 
 import logging
 

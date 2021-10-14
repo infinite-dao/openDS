@@ -5,6 +5,7 @@
             <requirement type="package" version="0.1.18">json</requirement>
             <requirement type="package" version="1.5.3">jsonpath-ng</requirement>  
             <requirement type="package" version="2.26.0">requests</requirement>
+            <requirement type="package" version="21.8.0">gevent</requirement>
             <requirement type="package" version="0.6.0">grequests</requirement>
             <yield/>
         </requirements>
