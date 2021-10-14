@@ -54,7 +54,7 @@ See also
 - documentation and screenshots in [`add_collector_metadata/doc/`](./add_collector_metadata/doc/).
 - discussion of people linkage in [issue #29 (DiSSCo/openDS)](https://github.com/DiSSCo/openDS/issues/29) 
 
-Data with *full results*:
+Data with *full results* searching 3 collector names with 2 data services:
 ```json
 {
     "specimen_collector_search": {
@@ -78,16 +78,18 @@ Data with *full results*:
 }
 ```
 
-Data with *no results*:
+Data with *no results* searching 3 collector names with 2 data services:
 ```json
 {
     "specimen_collector_search": {
         "results": {
             "wikidata": [
               [],
+              [],
               []
             ],
             "bionomia": [
+              [],
               [],
               []
             ]
