@@ -1,0 +1,51 @@
+<tool id="add_collector_metadata" name="Add Metadata of Collectors" version="0.2.0">
+
+    <description>Metadata of Collectors are added to the digital specimen object openDS stored as JSON. The order of found collectors is the order of the API of WikiBase (numApiOrdinal).</description>
+<!-- TODO  describe further -->
+    <macros>
+        <import>macros.xml</import>
+    </macros>    
+
+    <code file="code.py"/>
+    <expand macro="requirements" />  
+
+    <command>
+        <![CDATA[
+            python '$__tool_directory__/main.py' 
+                -i '$input' 
+                -o '$output'
+            #for $f in $opends_properties.keys
+                --$f '$opends_properties[$f]'
+            #end for            
+        ]]>
+    </command> 
+
+    <inputs>
+
+        <param name="input" type="data" format="json" label="Open Digital specimen object" />
+
+        <expand macro="opends_property" name="collector" property="$.specimen_collector_search.results[0].item" />
+<!--        <expand macro="opends_property" name="taxon" property="$.higher_classification" />-->
+
+     </inputs>
+
+    <outputs>
+        <data format="json" name="output" />
+    </outputs>
+
+    <tests>
+        <test>
+            <param name="opends" value="open-ds.json" />
+            <output name="opends" file="open-ds.json" ftype="json" lines_diff="2" />
+        </test>      
+    </tests>
+
+    <help>
+
+        This tool adds relevant person IDs for collectors from a text analysis before (a given optical recognition and type assignment of a found collector character string).
+
+    </help>
+    <citations>
+      
+    </citations>
+</tool>
