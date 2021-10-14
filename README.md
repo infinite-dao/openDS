@@ -6,7 +6,7 @@ Tools for open digital specimens openDS, see https://github.com/DiSSCo/openDS
 
 ### Add Collector Metadata
 
-[`add_collector_metadata`](./add_collector_metadata) — add meta data for collector names previously recognised by OCR. It searches Bionomia and WikiData and it just adds possible metadata without making a decision of the collector match. 
+[`add_collector_metadata`](./add_collector_metadata) — add meta data for collector names previously recognised by OCR. It searches Bionomia (API of [bionomia.net](https://bionomia.net)) and WikiData (SPARQL API [query.wikidata.org](https://query.wikidata.org)) and it just adds possible metadata without making a decision of the collector match. 
 
 TODO
 - discuss the properties and structure for openDS see people linkage [issue #29 (DiSSCo/openDS)](https://github.com/DiSSCo/openDS/issues/29) 
