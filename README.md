@@ -95,8 +95,8 @@ Data with *no results* searching 3 collector names with 2 data services:
             ]
         },
         "summary": [
-            "service 1 summary is always present also if results are available",
-            "service 2 summary is always present also if results are available"
+            "service 1 summary is always present also if no results are available",
+            "service 2 summary is always present also if no results are available"
         ]
     }
 }
