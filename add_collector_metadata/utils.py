@@ -71,14 +71,14 @@ WHERE {{
     BIND(ABS(?numApiOrdinal - ?numApiOrdinal_max) AS ?score) # inverse of numApiOrdinal as I understand the numApiOrdinal as rank, I guess
     OPTIONAL {{ # (2) occupation or subclass_of biologist (OPTIONAL is fast, non-OPTIONAL is slowing down query)
       {{ 
-        ?item wdt:P106/wdt:P279* wd:Q864503 .
+        ?item wdt:P106/wdt:P279* wd:Q864503 . # occupation (P106) / subclassOf (P279) ~ biologist (Q864503)
         # wd:Q864503 ^wdt:P279*/^wdt:P106 ?item . # inverse path
         hint:Prior hint:gearing "forward".
         BIND (True AS ?isBiologist) .
       }}
       UNION
       {{ 
-        ?item wdt:P106/wdt:P279* wd:Q420 .
+        ?item wdt:P106/wdt:P279* wd:Q420 . # occupation (P106) / subclassOf (P279) ~ biology (Q420)
         # wd:Q420 ^wdt:P279*/^wdt:P106 ?item .
         hint:Prior hint:gearing "forward".
         BIND (True AS ?isBiologist) .
